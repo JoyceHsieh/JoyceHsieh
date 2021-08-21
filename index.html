@@ -2,58 +2,66 @@
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
-  <title>Activity 1: Basic HTML Bio</title>
+  <title>Joyce Hsieh</title>
 </head>
 
 <body>
-  <h1>Hi, I am Joyce. Welcome to my Home page.</h1>
-  <img src="Joyce_1.png" alt="Joyce" weight="400" height="300">
-  <hr>
-  <p>I am a Master student major in <strong>Informatio system & technology</strong> right now.</p>
-  <p>I come from Taiwan, a beautiful island for vacation. Hope we can see you one day in Taiwan</p>
+  
+  <h1 class="title">Hi, I am Joyce. Welcome to my Home page.</h1>
 
   <div>
+  <img class="image" src="Joyce_1.png" alt="Joyce" weight="400" height="300">
+  
+  <table class="table" border="1">
+    <thead>
+      <tr>
+        <th colspan="4">Favorite</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Movies</td>
+        <td>Songs</td>
+        <td>Activities</td>
+      </tr>
+
+      <tr>
+        <td>Avengers</td>
+        <td>Rewrite the stars</td>
+        <td>Hiking</td>
+      </tr>
+
+
+      <tr>
+        <td>Zootopia</td>
+        <td>Panorama</td>
+        <td>Biking</td>
+      </tr>
+
+      <tr>
+        <td>Aladdin</td>
+        <td>A Whole New World</td>
+        <td>Watching movie</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+</div>
+
+  <hr>
+  <div class="intro">
+  <p>I am a Master student major in <strong>Informatio system & technology</strong> right now.</p>
+  <p>I come from Taiwan, a beautiful island for vacation. Hope we can see you one day in Taiwan</p>
+  </div>
+  
+  <div class="link">
     <a target="_blank" href="https://www.facebook.com/profile.php?id=100000052668416">Facebook</a>
     <a target="_blank" href="https://www.linkedin.com/in/chiaching-hsieh-0330a7185/">Linkedin</a>
   </div>
-  
+
   <br>
-    <table border="1">
-      <thead>
-        <tr>
-          <th colspan="4">Favorite</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Movies</td>
-          <td>Songs</td>
-          <td>Activities</td>
-        </tr>
-
-        <tr>
-          <td>Avengers</td>
-          <td>Rewrite the stars</td>
-          <td>Hiking</td>
-        </tr>
-
-
-        <tr>
-          <td>Zootopia</td>
-          <td>Panorama</td>
-          <td>Biking</td>
-        </tr>
-
-        <tr>
-          <td>Aladdin</td>
-          <td>A Whole New World</td>
-          <td>Watching movie</td>
-        </tr>
-
-
-      </tbody>
-
-    </table>
+    
 
     <br>
     <p></p>
@@ -61,3 +69,32 @@
 </body>
 
 </html>
+
+
+<style>
+  * {
+    font-family: cursive;
+
+  }
+
+  html,body{
+        width:100%; height: 100%;
+        padding: 0px; margin: 0px;}
+
+
+  .title{ 
+        margin-top: 50px;
+        padding: center;
+        text-align: center;
+  }
+
+  .image{ 
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+
+  .table{
+    margin-left: 20px;
+  }
+</style>
