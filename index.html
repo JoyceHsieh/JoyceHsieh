@@ -1,100 +1,109 @@
 <!DOCTYPE html>
+
+<!-- CSS Stylesheets with Relative Paths -->
+
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
-  <title>Joyce Hsieh</title>
+  <title>Joyce_Hsieh Home Page</title>
+
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-  
-  <h1 class="title">Hi, I am Joyce. Welcome to my Home page.</h1>
 
-  <div>
-  <img class="image" src="Joyce_1.png" alt="Joyce" weight="400" height="300">
-  
-  <table class="table" border="1">
-    <thead>
-      <tr>
-        <th colspan="4">Favorite</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Movies</td>
-        <td>Songs</td>
-        <td>Activities</td>
-      </tr>
+  <header>
+    <h1>Chiaching Hsieh</h1>
+  </header>
 
-      <tr>
-        <td>Avengers</td>
-        <td>Rewrite the stars</td>
-        <td>Hiking</td>
-      </tr>
+  <div class="container">
+    <section id="main_bio">
+      <section id="figure">   
+        <h2 id="bio_name">Joyce</h2>
+        <img id="bio_image" src="Joyce_1.png" alt="Joyce" style="width:200px;height:250px;margin:15px;">
+      <p> 
+        My name is Joyce who come form Taiwan. As a master student, major in information system & technology 
+        at Claremont Graduate University. During summer 2021, I attend the UCI Data Analysis BootCamp, I want to get more experience in Data Science field.
+        My experience and education include a UC Irvine (UCI) Division of Continuing Education and Bachelor’s degree in International Business from Taipei Tamkang University. 
+        I have almost two years of work experience in multiple industries. My interpersonal skills allow me to maintain good relationships with a diverse group of people from different backgrounds. 
+        This has allowed me to easily work and collaborate with people from all over the world. 
+        For my personality and work experience, I will have wonderful working performance in the company. I have life and work experience in three different countries and it’s a great benefit for creating a marketing strategy and production manager. 
+        I’m good at teamwork, but also can work individually. I have high adaptability for the new environments as well.</p>
+      </section>
+    </section>
 
+    <aside id="contact_info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="chiaching.hsieh@cgu.edu">chiaching.hsieh@cgu.edu</a></li>
+        <li><strong>Github:</strong> <a href="https://github.com/JoyceHsieh">JoyceHsieh</a></li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/chiaching-hsieh-0330a7185/">LinkedIn</a></li>
+        <li><strong>Facebook:</strong> <a href="https://www.facebook.com/profile.php?id=100000052668416">Facebook</a></li>
+      </ul>
 
-      <tr>
-        <td>Zootopia</td>
-        <td>Panorama</td>
-        <td>Biking</td>
-      </tr>
-
-      <tr>
-        <td>Aladdin</td>
-        <td>A Whole New World</td>
-        <td>Watching movie</td>
-      </tr>
-    </tbody>
-  </table>
-
-
-</div>
-
-  <hr>
-  <div class="intro">
-  <p>I am a Master student major in <strong>Informatio system & technology</strong> right now.</p>
-  <p>I come from Taiwan, a beautiful island for vacation. Hope we can see you one day in Taiwan</p>
-  </div>
-  
-  <div class="link">
-    <a target="_blank" href="https://www.facebook.com/profile.php?id=100000052668416">Facebook</a>
-    <a target="_blank" href="https://www.linkedin.com/in/chiaching-hsieh-0330a7185/">Linkedin</a>
+    </aside>
   </div>
 
-  <br>
-    
-
-    <br>
-    <p></p>
-    <iframe width="450" height="300" src="https://www.youtube.com/watch?v=G8GaQdW2wHc"></iframe>
 </body>
 
 </html>
 
-
 <style>
-  * {
-    font-family: cursive;
+  body{
+    background-color: #efeee7 ;
+    font-size:"Georgia";
+    color:#333333;
+    padding: 0px; 
+    margin: 0px;
+  }
+
+  header{
+    background-color: #333333 ;
+  }
+
+  h1{
+    color:#eee;
+    font-size: 28px;
+    text-align: center;
+  }
+
+  h2{
+    font-size: 24px;
 
   }
 
-  html,body{
-        width:100%; height: 100%;
-        padding: 0px; margin: 0px;}
+  .container
+  {width:1024px;
+    margin: 0 auto;}
 
-
-  .title{ 
-        margin-top: 50px;
-        padding: center;
-        text-align: center;
+  p{
+    margin-top:15px;
   }
 
-  .image{ 
-    margin-top: 10px;
-    margin-left: 20px;
+  #main_bio{
+    float: left;
+    width:70%;
+  }
+
+  #contact_info{
+    float: left;
+    width:30%;
+  }
+
+  #bio_image{
+    float: left;
+  
+  }
+
+  a{
+    color:#d21034;
+  }
+
+  #figure{
+    position:relative;
   }
 
 
-  .table{
-    margin-left: 20px;
-  }
 </style>
