@@ -1,109 +1,205 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- CSS Stylesheets with Relative Paths -->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+   
+    
+    <title>Joyce Hsieh</title>
+  </head>
+  <body>
+    <!-- Create the Nav -->
 
-<html lang="en-us">
-<head>
-  <meta charset="UTF-8">
-  <title>Joyce_Hsieh Home Page</title>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" id="navbar_content">Joyce</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" id="navbar_content">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" id="navbar_content">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                    Project
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="https://github.com/JoyceHsieh/Project_DisneyQuiz">DisneyQuiz</a></li>
+                  <li><a class="dropdown-item" href="https://github.com/JoyceHsieh/Data_Analysis_project_Automotive-Industry_COVID-Impact">CarMarketAnalysis</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="https://github.com/JoyceHsieh">GitHub</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" id="navbar_content">Education</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    
+      
 
-  <!-- This line is money! It points your HTML to the CSS file. -->
-  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
+      <!-- profrio -->
+      <div class="container">
+        <div class="row" id="portfolio">
+          <div class="col-md-6">
+           
+            <img id="bio_image" src="Joyce_1.png" alt="Joyce" style="width:200px;height:250px;margin:15px;">
+            <span>
+          <p> 
+            My name is Joyce, come form Taiwan. As a master student, major in information system & technology 
+            at Claremont Graduate University. During summer 2021, I attend the UCI Data Analysis BootCamp because I want to get more experience in Data Science field.
+            My experience and education include a UC Irvine (UCI) Division of Continuing Education and Bachelor’s degree in International Business from Taipei Tamkang University. 
+            </p>
+            </span>
+          </div>
+    
+          <div class="col-md-6">
+          <h2>Contact Info</h2>
+          <ul>
+            <li><strong>Email:</strong> <a href="chiaching.hsieh@cgu.edu" target="_blank">chiaching.hsieh@cgu.edu</a></li>
+            <li><strong>Github:</strong> <a href="https://github.com/JoyceHsieh" target="_blank">JoyceHsieh</a></li>
+            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/chiaching-hsieh-0330a7185/" target="_blank">LinkedIn</a></li>
+            <li><strong>Facebook:</strong> <a href="https://www.facebook.com/profile.php?id=100000052668416" target="_blank">Facebook</a></li>
+          </ul>
+    
+        </aside>
+      </div>
+      </div>
+      <br>
 
-<body>
+     <!--Create flaot card  -->
+     <div class="container">
+      <div class="row">
+        <div class="col-md-12" id="project">
+          <h2 class="project">Project</h2>
+          <hr>
 
-  <header>
-    <h1>Chiaching Hsieh</h1>
-  </header>
+    <div class="col-md-12">
+     <div class="container">
+      <div class="row">
 
-  <div class="container">
-    <section id="main_bio">
-      <section id="figure">   
-        <h2 id="bio_name">Joyce</h2>
-        <img id="bio_image" src="Joyce_1.png" alt="Joyce" style="width:200px;height:250px;margin:15px;">
-      <p> 
-        My name is Joyce who come form Taiwan. As a master student, major in information system & technology 
-        at Claremont Graduate University. During summer 2021, I attend the UCI Data Analysis BootCamp, I want to get more experience in Data Science field.
-        My experience and education include a UC Irvine (UCI) Division of Continuing Education and Bachelor’s degree in International Business from Taipei Tamkang University. 
-        I have almost two years of work experience in multiple industries. My interpersonal skills allow me to maintain good relationships with a diverse group of people from different backgrounds. 
-        This has allowed me to easily work and collaborate with people from all over the world. 
-        For my personality and work experience, I will have wonderful working performance in the company. I have life and work experience in three different countries and it’s a great benefit for creating a marketing strategy and production manager. 
-        I’m good at teamwork, but also can work individually. I have high adaptability for the new environments as well.</p>
-      </section>
-    </section>
+        <!-- First float -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="Disneycastle.png" class="card-img-top" alt="DisneyQuiz">
+          
+            <div class="card-body">
+              <h5 class="card-title">DisneyQuiz</h5>
+              <p class="card-text">This website not only predict character by input information but also upload image. Face detection algorithm can analyze your upload photo and match with Disney princesses.</p>
+              <a href="https://github.com/JoyceHsieh/Project_DisneyQuiz" target="_blank" class="btn btn-primary">Go GitHub</a>
+            </div>
+          </div>
+        </div>
+        <!-- Second float -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="Auto_industry&Covid.png" class="card-img-top" alt="Auto&Covid">
+          
+            <div class="card-body">
+              <h5 class="card-title">Auto_industry&Covid</h5>
+              <p class="card-text">To evaluate the impact COVID 19 had on the automotive sales industry, and uncover sales trends that would lead to maximum profitability for current dealerships in the future.</p>
+              <a href="https://github.com/JoyceHsieh/Data_Analysis_project_Automotive-Industry_COVID-Impact" target="_blank" class="btn btn-primary">Go GitHub</a>
+            </div>
+          </div>
+        </div>
 
-    <aside id="contact_info">
-      <h2>Contact Info</h2>
-      <ul>
-        <li><strong>Email:</strong> <a href="chiaching.hsieh@cgu.edu">chiaching.hsieh@cgu.edu</a></li>
-        <li><strong>Github:</strong> <a href="https://github.com/JoyceHsieh">JoyceHsieh</a></li>
-        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/chiaching-hsieh-0330a7185/">LinkedIn</a></li>
-        <li><strong>Facebook:</strong> <a href="https://www.facebook.com/profile.php?id=100000052668416">Facebook</a></li>
-      </ul>
+        <!-- Third float -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="Transaction.png" class="card-img-top" alt="TransactionApp">
+          
+            <div class="card-body">
+              <h5 class="card-title">Transaction Application</h5>
+              <p class="card-text">A sales transaction is an exchange of a product or service in exchange for some money or other compensation. Improve the database speed and Data cleaning.</p>
+              <a href="https://github.com/JoyceHsieh/FinalProject_SaleTransaction-Application" target="_blank" class="btn btn-primary">Go GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
 
-    </aside>
-  </div>
 
-</body>
+      </div>
+    </div>
 
+
+
+        </div>
+      </div>
+     </div>
+
+     
+
+      
+
+  </body>
 </html>
+
 
 <style>
   body{
-    background-color: #efeee7 ;
-    font-size:"Georgia";
-    color:#333333;
-    padding: 0px; 
-    margin: 0px;
+    margin:30px;
+    font-family: "serif";
   }
 
-  header{
-    background-color: #333333 ;
+  #navbar_content {
+    color:#0bada6;
+    font-size:20px;
+    margin:10px;
+  }
+  #navbarDropdown{
+    color:#0bada6;
+    font-size:20px;
+    margin:10px;
   }
 
-  h1{
-    color:#eee;
-    font-size: 28px;
-    text-align: center;
+  .h2{
+    margin-top:20px;
+    
   }
-
-  h2{
-    font-size: 24px;
-
+  .project{
+    color:#0bada6;
+    margin-left:10px;
   }
-
-  .container
-  {width:1024px;
-    margin: 0 auto;}
-
-  p{
-    margin-top:15px;
-  }
-
-  #main_bio{
-    float: left;
-    width:70%;
-  }
-
-  #contact_info{
-    float: left;
-    width:30%;
+ 
+  .card{
+    width:350px;
+    height:450px;
+    display:inline-block;
+    margin-left:20px;
+    margin-top:50px;
   }
 
   #bio_image{
     float: left;
-  
+    width:70%;
   }
 
-  a{
-    color:#d21034;
+  #portfolio{
+    margin-top:50px;
+    margin-left:20px;
+    
+
   }
 
-  #figure{
-    position:relative;
-  }
 
 
 </style>
