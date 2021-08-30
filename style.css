@@ -3,7 +3,9 @@
   body{
     margin:30px;
     font-family: "serif";
+    background-color:#FFFAFA;
   }
+
 
   #navbar_content {
     color:#0bada6;
@@ -39,9 +41,31 @@
   }
 
   #portfolio{
-    margin-top:50px;
-    margin-left:20px;
-    
-
+    margin-top:40px;
+    margin-left:10px;
+    padding-left:20px;
   }
 
+  
+  .e_box{
+    margin:20px;
+    background-color:#FFFAFA;
+
+    }
+
+
+  .e_image{
+    float: left;
+    width:20%;
+  }
+
+  .education_box{
+    margin:30px;
+    padding:20px;
+  }
+
+.e_content{
+  margin-left:20px;
+  padding-left:250px;
+  font-family: "serif";
+}
