@@ -16,7 +16,7 @@ L_data = [
     },
     {
     type: 'scatterpolar',
-    r: [4, 3, 4, 4],
+    r: [4, 4, 4, 4],
     theta: ['Speaking', 'Writing', 'Listening','Reading'],
     fill: 'toself',
     name: 'English'
