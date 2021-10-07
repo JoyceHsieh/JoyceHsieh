@@ -38,8 +38,8 @@ L_data = [
 P_data = [
     {
         type: 'scatterpolar',
-        r: [5, 3, 4, 3, 4],
-        theta: ['Python', 'Tableau', 'HTML/CSS/JavaScript','VBA','SQL/DataBase'],
+        r: [9, 6, 8, 5, 8, 4],
+        theta: ['Python', 'Tableau', 'HTML/CSS/JavaScript','VBA','SQL/DataBase', 'R'],
         fill: 'toself',
         name: 'Python'
         }
@@ -50,7 +50,7 @@ layout_2 = {
     polar: {
         radialaxis: {
         visible: true,
-        range: [0, 5]
+        range: [0, 10]
         }
     }
     }
