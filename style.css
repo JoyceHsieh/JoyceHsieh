@@ -8,14 +8,18 @@
 
 
   #navbar_content {
-    color:#0bada6;
+    color:#FFFFFF;
     font-size:20px;
     margin:10px;
   }
   #navbarDropdown{
-    color:#0bada6;
+    color:#FFFFFF;
     font-size:20px;
     margin:10px;
+  }
+
+  #Menu{
+    background-color:#0bada6 !important;
   }
 
   .h2{
@@ -69,3 +73,31 @@
   padding-left:250px;
   font-family: "serif";
 }
+
+
+@media (max-width: 990px) {
+  .navbar-expand-lg { 
+    background-color: #0bada6 !important;
+  }
+  .navbar {
+      max-height: none;
+      padding: inherit;
+    }
+  
+    .navbar-brand {
+      padding: 10px;
+    }
+  .navbar div {
+      margin: inherit;
+      background-color: #0bada6;
+    }
+    button{
+      margin-right: 30px;
+    }
+    .navbar-light .navbar-toggler {
+      color: white;
+      border-color: white;
+      background-color: white;
+    }
+  
+  }
