@@ -1,4 +1,5 @@
 
+
 L_data = [
     {
     type: 'scatterpolar',
@@ -48,6 +49,7 @@ P_data = [
 layout_2 = {
     title: 'CS Languages Skill',
     polar: {
+        // bgcolor: 'chartreuse',
         radialaxis: {
         visible: true,
         range: [0, 10]

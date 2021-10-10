@@ -1,270 +1,647 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css" />
-    
-    
-    <title>Joyce Hsieh</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="Menu">
-        <div class="container-fluid" >
-          <!-- <a class="navbar-brand" href="index.html" id="navbar_content">Joyce</a> -->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button> 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html" id="navbar_content">ABOUT</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="education.html" id="navbar_content">EDUCATION</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" id="navbar_content">EXPERIENCE</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="skill.html" id="navbar_content">SKILLS</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
-                    PROJECT
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="https://github.com/JoyceHsieh/Project_DisneyQuiz" target="_blank">DisneyQuiz</a></li>
-                  <li><a class="dropdown-item" href="https://github.com/JoyceHsieh/Data_Analysis_project_Automotive-Industry_COVID-Impact" target="_blank">CarMarketAnalysis</a></li>
-                  <li><a class="dropdown-item" href="https://github.com/JoyceHsieh/FinalProject_SaleTransaction-Application" target="_blank">Transaction Application</a></li>
-                  <li><a class="dropdown-item" href="https://github.com/JoyceHsieh/web-scraping-challenge" target="_blank">Web Scraping</a></li>
-                  <li><a class="dropdown-item" href="https://github.com/JoyceHsieh/ETL_project" target="_blank">ETL project</a></li>
-                  <li><a class="dropdown-item" href="https://github.com/JoyceHsieh/Python_APIs_Weather-Vacation" target="_blank">API</a></li>
-                  <li><a class="dropdown-item" href="http://bootcampproject3.joyce.s3-website-us-west-2.amazonaws.com" target="_blank">Gun violence project</a></li>
-                  <li><a class="dropdown-item" href="https://joycehsieh.github.io/Plot.ly-Homework---Belly-Button-Biodiversity/" target="_blank">Belly Button Biodiversity</a></li>
-                  <li><a class="dropdown-item" href="https://joycehsieh.github.io/Visualizing-Data-with-Leaflet/" target="_blank">Earthquake Data Visualizing</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="https://github.com/JoyceHsieh" target="_blank">GitHub</a></li>
-                </ul>
-              </li>
-              
-            </ul>
-            <!-- <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form> -->
-          </div>
-        </div>
-      </nav>
-
-
-
-    <!-- profrio -->
-    <div class="container">
-        <div class="row" id="portfolio">
-          <div class="col-md-6">
-           
-            <img id="bio_image" src="https://ca.slack-edge.com/T022ZCD3GH4-U0248K2R6EA-b7b24c77276e-512" alt="Joyce" style="width:200px;height:250px;margin:15px;">
-            <span>
-          <p> 
-            My name is Chiaching, Hsieh (Joyce), come form Taiwan. As a master student, major in information system & technology 
-            at Claremont Graduate University. During summer 2021, I attend the UCI Data Analysis BootCamp because I want to get more experience in Data Science field.
-            My experience and education include a UC Irvine (UCI) Division of Continuing Education and Bachelor’s degree in International Business from Taipei Tamkang University. 
-            </p>
-            </span>
-          </div>
-    
-          <div class="col-md-6 slide">
-          <h2>Contact Info</h2>
-          <ul>
-            <li><strong>Email:</strong> <a href="chiaching.hsieh@cgu.edu" target="_blank">chiaching.hsieh@cgu.edu</a></li>
-            <li><strong>Github:</strong> <a href="https://github.com/JoyceHsieh" target="_blank">JoyceHsieh</a></li>
-            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/chiaching-hsieh-0330a7185/" target="_blank">LinkedIn</a></li>
-            <li><strong>Facebook:</strong> <a href="https://www.facebook.com/profile.php?id=100000052668416" target="_blank">Facebook</a></li>
-          </ul>
-
-          <h2><a href="skill.html">Skill</a></h2>
-          <ul>
-            <li><strong>Languages:</strong> Mandarin (Native), Japanese (Business), English (Business)</li>
-            <li><strong>CS Languages:</strong> Python (Pandas/Matplotlib/Flask/sklearn),Tableau, HTML/CSS/JavaScript, R, VBA</li>
-            <li><strong>Databases:</strong> MSSQL, PostgreSQL, MongoDB, Sqlite</li>
-            <li><strong>Clouds:</strong> AWS, Athena, Azure</li>
-          </ul>
-    
-
-        </div>
-      </div>
-      <br>
-
-      <!--Create flaot card  -->
-     <div class="container">
-        <div class="row">
-          <div class="col-md-12" id="project">
-            <h2 class="project">PROJECT</h2>
-            <hr>
-  
-      <div class="col-md-12">
-
-       <div class="container">
-        <div class="row">
-  
-          <!-- First float -->
-          <div class="col-md-4">
-            <div class="card">
-              <img src="https://www.tucsongunlaw.com/images/pima-county-gun-law-lawyer.jpg" class="card-img-top" alt="Gun_violence" >
-            
-              <div class="card-body">
-                <h5 class="card-title">Gun violence project</h5>
-                <p class="card-text">Built a website that scrapes various websites presents mass shooting data from 1/1/2019 to 9/30/2021 to show how mass shootings incidents in the United States changed from the pre pandemic year of 2019 through September 2021.
-                  <br><br>Tools:Python, Sqlite, Azure, D3, AWS
-                </p>
-                <a href="http://bootcampproject3.joyce.s3-website-us-west-2.amazonaws.com" target="_blank" class="btn btn-primary">Go Website</a>
-              </div>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Portfolio - Joyce Hsieh</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top">Joyce Hsieh</a>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#project">Project</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#education">EDUCATION</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#experience">EXPERIENCE</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#skill">SKILLS</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
             </div>
-          </div>
-          <!-- Second float -->
-          <div class="col-md-4">
-            <div class="card">
-              <img src="https://www.michaelrobertdavis.com/images/bellybutton/bacteriacells3.jpg" class="card-img-top" alt="Sudoku"  height="230px">
-            
-              <div class="card-body">
-                <h5 class="card-title">Belly Button Biodiversity</h5>
-                <p class="card-text">An interactive dashboard to explore the Belly Button Biodiversity dataset, which catalogs the microbes that colonize human navels.</p>
-                <a href="https://joycehsieh.github.io/Plot.ly-Homework---Belly-Button-Biodiversity/" target="_blank" class="btn btn-primary">Go Website</a>
-              </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead bg-canvas text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image-->
+                <!-- <img class="masthead-avatar mb-5" src="assets/img/1547010742935.jpg" alt="..." /> -->
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0">Joyce Hsieh</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Masthead Subheading-->
+                <p class="masthead-subheading font-weight-light mb-0">Data Analysis - Data Seience </p>
             </div>
-          </div>
-  
-          <!-- Third float -->
-          <div class="col-md-4">
-            <div class="card">
-              <img src="https://thumbs.dreamstime.com/b/earthquake-epicenter-10600905.jpg" class="card-img-top" alt="API">
-            
-              <div class="card-body">
-                <h5 class="card-title">Earthquake Data Visualizing</h5>
-                <p class="card-text"> 
-                  Create a map using Leaflet that plots all of the earthquakes from the USGS provides earthquake data set. </p>
-                <a href="https://joycehsieh.github.io/Visualizing-Data-with-Leaflet/" target="_blank" class="btn btn-primary">Go Website</a>
-              </div>
+        </header>
+        <!-- Portfolio Section-->
+        <section class="page-section portfolio" id="project">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">PROJECT</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="https://api.hub.jhu.edu/factory/sites/default/files/styles/hub_thumbnail/public/gun_flag.jpg?itok=wl4neyaU" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="https://www.michaelrobertdavis.com/images/bellybutton/bacteriacells3.jpg" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="https://thumbs.dreamstime.com/b/earthquake-epicenter-10600905.jpg" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 4-->
+                    <div class="col-md-6 col-lg-4 mb-5 ">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="https://www.pngitem.com/pimgs/m/222-2225393_web-scraping-icon-png-data-center-migration-cloud.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 5-->
+                    <div class="col-md-6 col-lg-4 mb-5 ">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="https://www.astera.com/wp-content/uploads/2019/07/ETL-e1563879776366.jpg" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 6-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="https://content.techgig.com/photo/77980362/guide-how-to-develop-and-sell-python-api.jpg?49072" alt="..." />
+                        </div>
+                    </div>
+                    <br>
+                    <!-- Portfolio Item 7-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal7">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="https://www.blendernation.com/wp-content/uploads/2018/10/Disney_F.jpg" alt="..." />
+                        </div>
+                    </div>
+
+                    <!-- Portfolio Item 8-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal8">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="https://www.qad.com/blog/wp-content/uploads/2021/03/03.18.2021.png" alt="..." />
+                        </div>
+                    </div>
+
+                    <!-- Portfolio Item 9-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal9">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="https://i.pinimg.com/originals/71/19/8a/71198a72751ae2d4004c0e49cfbc9bdf.png" alt="..." height="200px" width="250px"/>
+                        </div>
+                    </div>
+
+                </div>
             </div>
-          </div>
-        </div>
-
-
-
-
-
-        <div class="row">
-          <!-- First float -->
-          <div class="col-md-4">
-            <div class="card">
-              <img src="https://www.pngitem.com/pimgs/m/222-2225393_web-scraping-icon-png-data-center-migration-cloud.png" class="card-img-top" alt="web_scarping" >
-            
-              <div class="card-body">
-                <h5 class="card-title">Web Scraping project</h5>
-                <p class="card-text">Built a web application that scrapes various websites for data related to the Mission to Mars, store data into MongoDB, and displays the information in a single HTML page.</p>
-                <a href="https://github.com/JoyceHsieh/web-scraping-challenge" target="_blank" class="btn btn-primary">Go GitHub</a>
-              </div>
+        </section>
+        <!-- About Section-->
+        <section class="page-section bg-about text-white mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <div class="row">
+                <div class="col-lg-4 mm-auto"><img id="TM" src="https://ca.slack-edge.com/T022ZCD3GH4-U0248K2R6EA-b7b24c77276e-512" class="rounded" alt="Joyce"></div>
+                </div>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="row">
+                    <div class="col-lg-4 ms-auto"><p class="lead">My name is Chiaching, Hsieh (Joyce), come form Taiwan. As a master student, major in information system & technology 
+                        at Claremont Graduate University. During summer 2021, I attend the UCI Data Analysis BootCamp because I want to get more experience in Data Science field.
+                        </p></div>
+                    <div class="col-lg-4 me-auto"><p class="lead">My experience and education include a UC Irvine (UCI) Division of Continuing Education and Bachelor’s degree in International Business from Taipei Tamkang University.</p></div>
+                </div>
+                <!-- About Section Button-->
+                <!-- <div class="text-center mt-4">
+                    <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
+                        <i class="fas fa-download me-2"></i>
+                        Free Download!
+                    </a>
+                </div> -->
             </div>
-          </div>
-          <!-- Second float -->
-          <div class="col-md-4">
-            <div class="card">
-              <img src="https://www.astera.com/wp-content/uploads/2019/07/ETL-e1563879776366.jpg" class="card-img-top" alt="Sudoku"  height="230px">
-            
-              <div class="card-body">
-                <h5 class="card-title">ETL project</h5>
-                <p class="card-text">We took our data from fbref.com. Transformations on the tables and migrate it to a single relational database in POSTGRES.</p>
-                <a href="https://github.com/JoyceHsieh/ETL_project" target="_blank" class="btn btn-primary">Go GitHub</a>
-              </div>
+        </section>
+
+        <!-- Education Section-->
+        <section class="page-section bg-education text-white mb-0" id="education">
+            <div class="container">
+                <!-- About Section Heading-->
+                <div class="row">
+                    <h2 class="page-section-heading text-center text-uppercase">Education</h2>
+                </div>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+
+                <div class="row e_box">
+                    <div class="row e_box">
+                        <div class="col-md-12 education_box">
+                          <img class="e_image"   src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/University_of_California%2C_Irvine_seal.svg/1200px-University_of_California%2C_Irvine_seal.svg.png" alt="UCI">
+                          <div class="e_content">
+                          <h3>UC Irvine BootCamp</h3>
+                          <h4>Data Analysis</h4>
+                          <p>Coursework: Gaining technical programming skills in Excel, VBA, Python, R, JavaScript, SQL Databases, Tableau, Big Data, and Machine Learning.</p>
+                          </div>
+                        </div>
+                      </div>
+                  
+               
+                  
+                      <div class="row e_box">
+                        <div class="col-md-12 education_box">
+                          <img class="e_image" src="https://pbs.twimg.com/profile_images/819300949151793154/IuKzHGG4_400x400.jpg" alt="Claremont" >
+                          <div class="e_content">
+                          <h3>Claremont Graduate University</h3>
+                          <h4>Master Degree: Information Systems & Technology</h4>
+                          <p>Coursework: Communications & Networking, Data Analytics & Info Visualize, GIS Analytics & Development, Databases (SQL), Management of Info Tech, CS Insights via Python Programming</p>
+                          </div>
+                        </div>
+                      </div>
+                  
+
+                      <div class="row e_box">
+                        <div class="col-md-12 education_box">
+                          <img class="e_image"   src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/University_of_California%2C_Irvine_seal.svg/1200px-University_of_California%2C_Irvine_seal.svg.png" alt="UCI">
+                          <div class="e_content">
+                          <h3>UC Irvine Certificate Program</h3>
+                          <h4>Digital Marketing/International Business Operational and Management </h4>
+                          <p>Coursework: Social media and Internet Audience Profiling, Online Analytics and Measurement, International Business Strategy, International Marketing, International Trade and Supply Chain.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="row e_box">
+                        <div class="col-md-12 education_box">
+                          <img class="e_image" src="https://upload.wikimedia.org/wikipedia/zh/thumb/d/db/Tamkang_University_logo.svg/1200px-Tamkang_University_logo.svg.png" alt="TK">
+                          <div class="e_content">
+                          <h3>Tamkang University</h3>
+                          <h4>Bachelor's Degree: International Business</h4>
+                          <p>Coursework: Economics, Business Statistics, Accounting principles, Marketing, Investments, Insurance, International Business Management, Supply Chain Management, International Finance</p>
+                          </div>
+                        </div>
+                      </div>
+
             </div>
-          </div>
-  
-          <!-- Third float -->
-          <div class="col-md-4">
-            <div class="card">
-              <img src="https://content.techgig.com/photo/77980362/guide-how-to-develop-and-sell-python-api.jpg?49072" class="card-img-top" alt="API">
-            
-              <div class="card-body">
-                <h5 class="card-title">API_Weather&Vacation</h5>
-                <p class="card-text"> 
-                  I created a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, I utilized simple Python library and OpenWeatherMap API</p>
-                <a href="https://github.com/JoyceHsieh/Python_APIs_Weather-Vacation" target="_blank" class="btn btn-primary">Go GitHub</a>
-              </div>
+        </section>
+
+        <!-- Experience Section-->
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <section class="page-section bg-about text-white mb-0" id="experience">
+            <div class="container">
+                <!-- About Section Heading-->
+                <div class="row">
+                    <h2 class="page-section-heading text-center text-uppercase">Experience</h2>
+                </div>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+
+                <div class="row">
+                    <h2 class="page-section-heading text-center text-uppercase">COMING SOON</h2>
+                </div>
+
             </div>
-          </div>
-        </div>
+        </section>
+
+        <!-- Skill Section-->
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <section class="page-section bg-education text-white mb-0" id="skill">
+            <div class="container">
+                <!-- About Section Heading-->
+                <div class="row">
+                    <h2 class="page-section-heading text-center text-uppercase">Skills</h2>
+                </div>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+            <div class="row">
+                <div class="col-md-6" id="myDiv"></div>
+                <div class="col-md-6" id="my_plotly"></div>
+                <script src="js/radar_chart.js"></script>
+            </div>
+            </div>
+        </section>
 
 
-
-
-
-        <div class="row">
-          <!-- First float -->
-          <div class="col-md-4">
-            <div class="card">
-              <img src="Recourse/Disneycastle.png" class="card-img-top" alt="DisneyQuiz">
-            
-              <div class="card-body">
-                <h5 class="card-title">DisneyQuiz</h5>
-                <p class="card-text">This website not only predict character by input information but also upload image. Face detection algorithm can analyze your upload photo and match with Disney princesses.</p>
-                <a href="https://github.com/JoyceHsieh/Project_DisneyQuiz" target="_blank" class="btn btn-primary">Go GitHub</a>
-              </div>
-            </div>
-          </div>
-          <!-- Second float -->
-          <div class="col-md-4">
-            <div class="card">
-              <img src="Recourse/Auto_industry&Covid.png" class="card-img-top" alt="Auto&Covid">
-            
-              <div class="card-body">
-                <h5 class="card-title">Auto_industry&Covid</h5>
-                <p class="card-text">To evaluate the impact COVID 19 had on the automotive sales industry, and uncover sales trends that would lead to maximum profitability for current dealerships in the future.</p>
-                <a href="https://github.com/JoyceHsieh/Data_Analysis_project_Automotive-Industry_COVID-Impact/blob/main/Group3_auto_final.pdf" target="_blank" class="btn btn-primary">Go GitHub</a>
-              </div>
-            </div>
-          </div>
-  
-          <!-- Third float -->
-          <div class="col-md-4">
-            <div class="card">
-              <img src="Recourse/Transaction.png" class="card-img-top" alt="TransactionApp">
-            
-              <div class="card-body">
-                <h5 class="card-title">Transaction Application</h5>
-                <p class="card-text">A sales transaction is an exchange of a product or service in exchange for some money or other compensation. Improve the database speed and Data cleaning.</p>
-                <a href="https://github.com/JoyceHsieh/FinalProject_SaleTransaction-Application" target="_blank" class="btn btn-primary">Go GitHub</a>
-              </div>
-            </div>
-          </div>
-        </div>
-  
+        <!-- Contact Section-->
+        <section class="page-section bg-about text-white mb-0" id="contact">
+            <div class="container">
+                <!-- About Section Heading-->
+                <div class="row">
+                    <h2 class="page-section-heading text-center text-uppercase">CONTACT ME</h2>
+                </div>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Footer-->
+                <footer class="footer text-center">
+                    <div class="container">
+                        <div class="row">
+                            <!-- Footer Location-->
+                            <div class="col-lg-4 mb-5 mb-lg-0">
+                                <h4 class="text-uppercase mb-4">Email</h4>
+                                <p class="lead mb-0">
+                                    chiaching.hsieh@cgu.edu
+                                </p>
+                            </div>
+                            <!-- Footer Social Icons-->
+                            <div class="col-lg-4 mb-5 mb-lg-0">
+                                <h4 class="text-uppercase mb-4">Around the Web</h4>
+                                <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/profile.php?id=100000052668416" target="_blank"><i class="fab fa-fw fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/chinglove5/" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/chiaching-hsieh-0330a7185/" target="_blank"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                                <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/JoyceHsieh" target="_blank"><i class="fab fa-github"></i></a>
+                            </div>
         
-  
+                            <div class="col-lg-4 mb-5 mb-lg-0">
+                                <h4 class="text-uppercase mb-4">Phone Number</h4>
+                                <p class="lead mb-0">
+                                    949-922-1883
+                                </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </footer>
+
+
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Copyright Section-->
+        <div class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright &copy; Joyce Hsieh Website 2021</small></div>
         </div>
-      </div>
-  
-  
-  
-          </div>
+        <!-- Portfolio Modals-->
+        <!-- Portfolio Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Gun violence project</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="https://api.hub.jhu.edu/factory/sites/default/files/styles/hub_thumbnail/public/gun_flag.jpg?itok=wl4neyaU" alt="Project1" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Built a website that scrapes various websites presents mass shooting data from 1/1/2019 to 9/30/2021 to show how mass shootings incidents in the United States changed from the pre pandemic year of 2019 through September 2021.
+                                        <br><br>Tools:Python, Sqlite, Azure, D3, AWS</p>
+                                    <button class="btn btn-primary" href="" data-bs-dismiss="modal">
+                                        <a href="http://bootcampproject3.joyce.s3-website-us-west-2.amazonaws.com" target="_blank" class="btn btn-primary">Go Website</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-       </div>
+        <!-- Portfolio Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Belly Button Biodiversity</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="https://www.michaelrobertdavis.com/images/bellybutton/bacteriacells3.jpg" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">An interactive dashboard to explore the Belly Button Biodiversity dataset, which catalogs the microbes that colonize human navels.</p>
+                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                        <a href="https://joycehsieh.github.io/Plot.ly-Homework---Belly-Button-Biodiversity/" target="_blank" class="btn btn-primary">Go Website</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Earthquake Data Visualizing</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="https://thumbs.dreamstime.com/b/earthquake-epicenter-10600905.jpg" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Create a map using Leaflet that plots all of the earthquakes from the USGS provides earthquake data set.</p>
+                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                        <a href="https://joycehsieh.github.io/Visualizing-Data-with-Leaflet/" target="_blank" class="btn btn-primary">Go Website</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 4-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Web Scraping project</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="https://www.pngitem.com/pimgs/m/222-2225393_web-scraping-icon-png-data-center-migration-cloud.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Built a web application that scrapes various websites for data related to the Mission to Mars, store data into MongoDB, and displays the information in a single HTML page.</p>
+                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                        <a href="https://github.com/JoyceHsieh/web-scraping-challenge" target="_blank" class="btn btn-primary">Go GitHub</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 5-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">ETL project</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="https://www.astera.com/wp-content/uploads/2019/07/ETL-e1563879776366.jpg" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">We took our data from fbref.com. Transformations on the tables and migrate it to a single relational database in POSTGRES.</p>
+                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                        <a href="https://github.com/JoyceHsieh/ETL_project" target="_blank" class="btn btn-primary">Go GitHub</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 6-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">API_Weather&Vacation</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="https://content.techgig.com/photo/77980362/guide-how-to-develop-and-sell-python-api.jpg?49072" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">I created a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, I utilized simple Python library and OpenWeatherMap API</p>
+                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                        <a href="https://github.com/JoyceHsieh/Python_APIs_Weather-Vacation" target="_blank" class="btn btn-primary">Go GitHub</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+         <!-- Portfolio Modal 7-->
+         <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" aria-labelledby="portfolioModal7" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">DisneyQuiz</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="https://www.blendernation.com/wp-content/uploads/2018/10/Disney_F.jpg" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">This website not only predict character by input information but also upload image. Face detection algorithm can analyze your upload photo and match with Disney princesses.</p>
+                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                        <a href="https://github.com/JoyceHsieh/Project_DisneyQuiz" target="_blank" class="btn btn-primary">Go GitHub</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+         <!-- Portfolio Modal 8-->
+         <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" aria-labelledby="portfolioModal8" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Auto_industry&Covid</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="https://www.qad.com/blog/wp-content/uploads/2021/03/03.18.2021.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">To evaluate the impact COVID 19 had on the automotive sales industry, and uncover sales trends that would lead to maximum profitability for current dealerships in the future.</p>
+                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                        <a href="https://github.com/JoyceHsieh/Data_Analysis_project_Automotive-Industry_COVID-Impact/blob/main/Group3_auto_final.pdf" target="_blank" class="btn btn-primary">Go GitHub</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
-    -->
-  </body>
+         <!-- Portfolio Modal 9-->
+         <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" aria-labelledby="portfolioModal9" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Transaction Application</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="https://i.pinimg.com/originals/71/19/8a/71198a72751ae2d4004c0e49cfbc9bdf.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">A sales transaction is an exchange of a product or service in exchange for some money or other compensation. Improve the database speed and Data cleaning.</p>
+                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                        <a href="https://github.com/JoyceHsieh/FinalProject_SaleTransaction-Application" target="_blank" class="btn btn-primary">Go GitHub</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
 </html>
