@@ -3,24 +3,26 @@
 L_data = [
     {
     type: 'scatterpolar',
-    r: [5, 5, 5, 5],
+    r: [10, 10, 10, 10],
     theta: ['Speaking', 'Writing', 'Listening','Reading'],
     fill: 'toself',
     name: 'Mandarin'
     },
     {
     type: 'scatterpolar',
-    r: [5, 3, 5, 4],
+    r: [8, 8, 8, 8],
     theta: ['Speaking', 'Writing', 'Listening','Reading'],
-    fill: 'toself',
-    name: 'Japanese'
+    fill : 'toself',
+    // fillcolor:'green',
+    name: 'English',
     },
     {
     type: 'scatterpolar',
-    r: [4, 4, 4, 4],
+    r: [9, 7, 9, 7],
     theta: ['Speaking', 'Writing', 'Listening','Reading'],
     fill: 'toself',
-    name: 'English'
+    // fillcolor:'red',
+    name: 'Japanese'
     }
     ]
     
@@ -29,7 +31,7 @@ L_data = [
     polar: {
         radialaxis: {
         visible: true,
-        range: [0, 5]
+        range: [0, 10]
         }
     }
     }
@@ -39,7 +41,7 @@ L_data = [
 P_data = [
     {
         type: 'scatterpolar',
-        r: [9, 6, 8, 5, 8, 4],
+        r: [9.5, 7, 9, 5, 8, 7],
         theta: ['Python', 'Tableau', 'HTML/CSS/JavaScript','VBA','SQL/DataBase', 'R'],
         fill: 'toself',
         name: 'Python'
