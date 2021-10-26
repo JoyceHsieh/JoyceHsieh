@@ -41,7 +41,7 @@ L_data = [
 P_data = [
     {
         type: 'scatterpolar',
-        r: [9.5, 7, 9, 5, 8, 7],
+        r: [8, 6, 8, 5, 8, 6],
         theta: ['Python', 'Tableau', 'HTML/CSS/JavaScript','VBA','SQL/DataBase', 'R'],
         fill: 'toself',
         name: 'Python'
@@ -61,3 +61,26 @@ layout_2 = {
 
 Plotly.newPlot("my_plotly", P_data, layout_2)
 
+
+
+python_data = [
+    {
+        type: 'scatterpolar',
+        r: [9, 7, 8, 7, 7],
+        theta: ['Pandas', 'Matploylib', 'Flask','Sklearn','SQLAlchemy'],
+        fill: 'toself'
+        }
+]
+
+layout_3 = {
+    title: 'Python Data Skill Quantify',
+    polar: {
+        // bgcolor: 'chartreuse',
+        radialaxis: {
+        visible: true,
+        range: [0, 10]
+        }
+    }
+    }
+
+Plotly.newPlot("my_data", python_data, layout_3)
