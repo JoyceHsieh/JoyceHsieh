@@ -41,8 +41,8 @@ L_data = [
 P_data = [
     {
         type: 'scatterpolar',
-        r: [8, 6, 8, 5, 8, 6],
-        theta: ['Python', 'Tableau', 'HTML/CSS/JavaScript','VBA','SQL/DataBase', 'R'],
+        r: [8, 6, 8, 7, 8, 6],
+        theta: ['Python', 'Tableau', 'HTML/CSS/JavaScript','Cloud', 'SQL/DataBase', 'R'],
         fill: 'toself',
         name: 'Python'
         }
@@ -84,3 +84,26 @@ layout_3 = {
     }
 
 Plotly.newPlot("my_data", python_data, layout_3)
+
+
+cloud_data = [
+    {
+        type: 'scatterpolar',
+        r: [7, 7, 6, 7, 6],
+        theta: ['AWS', 'Azure', 'Spark','Google Colab','Databricks'],
+        fill: 'toself',
+        }
+]
+
+layout_4 = {
+    title: 'Cloud platforms Skill Quantify',
+    polar: {
+        // bgcolor: 'chartreuse',
+        radialaxis: {
+        visible: true,
+        range: [0, 10]
+        }
+    }
+    }
+
+Plotly.newPlot("my_cloud", cloud_data, layout_4)

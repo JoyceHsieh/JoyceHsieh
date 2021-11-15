@@ -67,6 +67,15 @@
                 </div>
                 <!-- Portfolio Grid Items-->
                 <div class="row justify-content-center">
+                    <!-- Portfolio Item 0-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal0">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="https://i.pinimg.com/736x/01/d9/66/01d9662b135e4b38ec4a82c393632820.jpg" alt="..." />
+                        </div>
+                    </div>
                     <!-- Portfolio Item 1-->
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
@@ -113,15 +122,8 @@
                         </div>
                     </div>
                     <!-- Portfolio Item 6-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="https://content.techgig.com/photo/77980362/guide-how-to-develop-and-sell-python-api.jpg?49072" alt="..." />
-                        </div>
-                    </div>
-                    <br>
+                    
+                  
                     <!-- Portfolio Item 7-->
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal7">
@@ -148,7 +150,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="https://i.pinimg.com/originals/71/19/8a/71198a72751ae2d4004c0e49cfbc9bdf.png" alt="..." height="200px" width="250px"/>
+                            <img class="img-fluid" src="https://www.seekpng.com/png/detail/674-6743907_favorite-database-icon.png" alt="..." height="200px" width="250px"/>
                         </div>
                     </div>
 
@@ -290,9 +292,13 @@
                     <div class="divider-custom-line"></div>
                 </div>
             <div class="row">
-                <div class="col-md-4" id="myDiv"></div>
-                <div class="col-md-4" id="my_plotly"></div>
-                <div class="col-md-4" id="my_data"></div>
+                <div class="col-md-6" id="myDiv"></div>
+                <div class="col-md-6" id="my_plotly"></div>
+                <script src="js/radar_chart.js"></script>
+            </div>
+            <div class="row">
+                <div class="col-md-6" id="my_data"></div>
+                <div class="col-md-6" id="my_cloud"></div>
                 <script src="js/radar_chart.js"></script>
             </div>
             </div>
@@ -355,6 +361,38 @@
             <div class="container"><small>Copyright &copy; Joyce Hsieh Website 2021</small></div>
         </div>
         <!-- Portfolio Modals-->
+        <!-- Portfolio Modal 0-->
+        <div class="portfolio-modal modal fade" id="portfolioModal0" tabindex="-1" aria-labelledby="portfolioModal0" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Dog Adoption</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="https://i.pinimg.com/736x/01/d9/66/01d9662b135e4b38ec4a82c393632820.jpg" alt="Project0" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Built a website with Dashboard by using Tableau to visualize Dog Apoption rate in United States.
+                                        <br><br>Tools:Python, Tableau, AWS/s3</p>
+                                    <button class="btn btn-primary" href="" data-bs-dismiss="modal">
+                                        <a href="https://bootcampversion2dogadoption.s3.us-west-2.amazonaws.com/index.html" target="_blank" class="btn btn-primary">Go Website</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- Portfolio Modal 1-->
         <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
             <div class="modal-dialog modal-xl">
@@ -407,7 +445,9 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="https://www.michaelrobertdavis.com/images/bellybutton/bacteriacells3.jpg" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">An interactive dashboard to explore the Belly Button Biodiversity dataset, which catalogs the microbes that colonize human navels.</p>
+                                    <p class="mb-4">An interactive dashboard to explore the Belly Button Biodiversity dataset, which catalogs the microbes that colonize human navels.
+                                        <br><br>Tools:Python, D3, HTML
+                                    </p>
                                     <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
                                         <a href="https://joycehsieh.github.io/Plot.ly-Homework---Belly-Button-Biodiversity/" target="_blank" class="btn btn-primary">Go Website</a>
                                     </button>
@@ -438,7 +478,9 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="https://thumbs.dreamstime.com/b/earthquake-epicenter-10600905.jpg" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Create a map using Leaflet that plots all of the earthquakes from the USGS provides earthquake data set.</p>
+                                    <p class="mb-4">Create a map using Leaflet that plots all of the earthquakes from the USGS provides earthquake data set.
+                                        <br><br>Tools:Python, Leaflet, HTML
+                                    </p>
                                     <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
                                         <a href="https://joycehsieh.github.io/Visualizing-Data-with-Leaflet/" target="_blank" class="btn btn-primary">Go Website</a>
                                     </button>
@@ -469,7 +511,9 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="https://www.pngitem.com/pimgs/m/222-2225393_web-scraping-icon-png-data-center-migration-cloud.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Built a web application that scrapes various websites for data related to the Mission to Mars, store data into MongoDB, and displays the information in a single HTML page.</p>
+                                    <p class="mb-4">Built a web application that scrapes various websites for data related to the Mission to Mars, store data into MongoDB, and displays the information in a single HTML page.
+                                        <br><br>Tools:Python, Flask, HTML
+                                    </p>
                                     <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
                                         <a href="https://github.com/JoyceHsieh/web-scraping-challenge" target="_blank" class="btn btn-primary">Go GitHub</a>
                                     </button>
@@ -500,7 +544,9 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="https://www.astera.com/wp-content/uploads/2019/07/ETL-e1563879776366.jpg" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">We took our data from fbref.com. Transformations on the tables and migrate it to a single relational database in POSTGRES.</p>
+                                    <p class="mb-4">We took our data from fbref.com. Transformations on the tables and migrate it to a single relational database in POSTGRES.
+                                        <br><br>Tools:Python, PostgreSQL
+                                    </p>
                                     <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
                                         <a href="https://github.com/JoyceHsieh/ETL_project" target="_blank" class="btn btn-primary">Go GitHub</a>
                                     </button>
@@ -512,36 +558,7 @@
             </div>
         </div>
         <!-- Portfolio Modal 6-->
-        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">API_Weather&Vacation</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="https://content.techgig.com/photo/77980362/guide-how-to-develop-and-sell-python-api.jpg?49072" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">I created a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, I utilized simple Python library and OpenWeatherMap API</p>
-                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
-                                        <a href="https://github.com/JoyceHsieh/Python_APIs_Weather-Vacation" target="_blank" class="btn btn-primary">Go GitHub</a>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
 
          <!-- Portfolio Modal 7-->
          <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" aria-labelledby="portfolioModal7" aria-hidden="true">
@@ -563,7 +580,9 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="https://www.blendernation.com/wp-content/uploads/2018/10/Disney_F.jpg" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">This website not only predict character by input information but also upload image. Face detection algorithm can analyze your upload photo and match with Disney princesses.</p>
+                                    <p class="mb-4">This website not only predict character by input information but also upload image. Face detection algorithm can analyze your upload photo and match with Disney princesses.
+                                        <br><br>Tools:Python(Machine Learning), Flask, HTML/CSS
+                                    </p>
                                     <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
                                         <a href="https://github.com/JoyceHsieh/Project_DisneyQuiz" target="_blank" class="btn btn-primary">Go GitHub</a>
                                     </button>
@@ -595,7 +614,9 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="https://www.qad.com/blog/wp-content/uploads/2021/03/03.18.2021.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">To evaluate the impact COVID 19 had on the automotive sales industry, and uncover sales trends that would lead to maximum profitability for current dealerships in the future.</p>
+                                    <p class="mb-4">To evaluate the impact COVID 19 had on the automotive sales industry, and uncover sales trends that would lead to maximum profitability for current dealerships in the future.
+                                        <br><br>Tools: Python
+                                    </p>
                                     <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
                                         <a href="https://github.com/JoyceHsieh/Data_Analysis_project_Automotive-Industry_COVID-Impact/blob/main/Group3_auto_final.pdf" target="_blank" class="btn btn-primary">Go GitHub</a>
                                     </button>
@@ -625,9 +646,11 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="https://i.pinimg.com/originals/71/19/8a/71198a72751ae2d4004c0e49cfbc9bdf.png" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="https://www.seekpng.com/png/detail/674-6743907_favorite-database-icon.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">A sales transaction is an exchange of a product or service in exchange for some money or other compensation. Improve the database speed and Data cleaning.</p>
+                                    <p class="mb-4">A sales transaction is an exchange of a product or service in exchange for some money or other compensation. Improve the database speed and Data cleaning.
+                                        <br><br>Tools:MS SQL
+                                    </p>
                                     <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
                                         <a href="https://github.com/JoyceHsieh/FinalProject_SaleTransaction-Application" target="_blank" class="btn btn-primary">Go GitHub</a>
                                     </button>
