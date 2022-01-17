@@ -89,7 +89,7 @@ Plotly.newPlot("my_data", python_data, layout_3)
 cloud_data = [
     {
         type: 'scatterpolar',
-        r: [7, 7, 6, 7, 6],
+        r: [8, 8, 7, 8, 7],
         theta: ['AWS', 'Azure', 'Spark','Google Colab','Databricks'],
         fill: 'toself',
         }

@@ -297,6 +297,8 @@ figure {
 }
 
 #TM{
+  margin-left: auto !important;
+  margin-right: auto !important;
   width:400px;
   height:380px;
   border-radius: 50% !important;
@@ -638,7 +640,7 @@ progress {
   padding: 0.25rem;
   background-color: #fff;
   border: 0.125rem solid #dee2e6;
-  border-radius: 0.5rem;
+  border-radius: 50%;
   max-width: 100%;
   height: auto;
 }
@@ -7836,10 +7838,10 @@ textarea.form-control-lg {
 
 .bg-canvas {
   --bs-bg-opacity: 0.5;
-  background-image: url("https://pbs.twimg.com/media/DyKeR27XgAA29Na.jpg") !important;
+  background-image: url("https://adiassociation.org/wp-content/uploads/2021/04/home-masthead-3.jpeg") !important;
   background-repeat: no-repeat; 
   background-size: cover;
-  height: 650px;
+  height: 580px;
   opacity: 0.75;
   /* background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important; */
 }
