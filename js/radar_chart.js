@@ -41,7 +41,7 @@ L_data = [
 P_data = [
     {
         type: 'scatterpolar',
-        r: [8, 6, 8, 7, 8, 6],
+        r: [8.5, 7, 8.5, 7, 8, 6],
         theta: ['Python', 'Tableau', 'HTML/CSS/JavaScript','Cloud', 'SQL/DataBase', 'R'],
         fill: 'toself',
         name: 'Python'
@@ -67,7 +67,7 @@ python_data = [
     {
         type: 'scatterpolar',
         r: [9, 7, 8, 7, 7],
-        theta: ['Pandas', 'Matploylib', 'Flask','Sklearn','SQLAlchemy'],
+        theta: ['Pandas', 'Matploylib', 'Flask', 'Sklearn','SQLAlchemy'],
         fill: 'toself'
         }
 ]
