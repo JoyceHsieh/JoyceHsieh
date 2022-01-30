@@ -312,9 +312,15 @@ svg {
 
 .e_box{
   margin:20px;
-  background-color:#FFFAFA;
+  background-color: rgba(var(--bs-light), var(--bs-bg-opacity));
 
   }
+
+  .experience_box{
+    margin:20px;
+    background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity));
+  
+    }
 
 
 .e_image{
