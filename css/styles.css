@@ -7845,11 +7845,11 @@ textarea.form-control-lg {
 
 .bg-canvas {
   --bs-bg-opacity: 0.5;
-  background-image: url("https://adiassociation.org/wp-content/uploads/2021/04/home-masthead-3.jpeg") !important;
+  background-image: url("background.jpeg") !important;
   background-repeat: no-repeat; 
   background-size: cover;
   height: 580px;
-  opacity: 0.75;
+  opacity: 1;
   /* background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important; */
 }
 
